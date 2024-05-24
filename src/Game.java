@@ -33,9 +33,9 @@ public class Game {
             if (board.isGameOver()) {
                 board.printBoard();
                 if (board.didRobotsWin()) {
-                    System.out.println("Az ellenfél bekerítve. A robotok nyertek!");
+                    System.out.println("Az játékos bekerítve. A robotok nyertek!");
                 } else if (board.didOpponentWin()) {
-                    System.out.println("Az ellenfél megszökött. Az ellenfél nyert!");
+                    System.out.println("Az játékos megszökött. Az játékos nyert!");
                 }
                 break;
             }
